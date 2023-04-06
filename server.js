@@ -29,7 +29,7 @@ app.use(function(err, req, res, next) {
 app.use('/api/v1', require('./api/v1/api'))
 
 
-const server = app.listen(3000, function() {
+const server = app.listen(8000, function() {
     const port = server.address().port;
     console.log("Server running on http://localhost:", port)
 })
